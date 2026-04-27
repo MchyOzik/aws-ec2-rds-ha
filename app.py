@@ -10,9 +10,9 @@ app = Flask(__name__)
 
 # Database configuration
 db_config = {
-    'host': os.getenv('DB_HOST', 'localhost'),
+    'host': os.getenv('DB_HOST', 'database-1.choyiyq04aeq.us-east-1.rds.amazonaws.com'),
     'user': os.getenv('DB_USER', 'admin'),
-    'password': os.getenv('DB_PASSWORD', 'password123'),
+    'password': os.getenv('DB_PASSWORD', 'TERSERAH'),
     'database': os.getenv('DB_NAME', 'guestbook_db')
 }
 
